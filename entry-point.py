@@ -1,5 +1,6 @@
 from pythonapp import func_1, func_2, class_1
 
+
 def main():
     vec = [10, 20, 30, 40, 50]
     print(f"Average: {func_1.avg(vec)}")
@@ -10,6 +11,7 @@ def main():
     my_car = class_1.Car("Tesla", 2021, "blue")
     my_car.drive(150)
     my_car.description("My car")
+
 
 if __name__ == "__main__":
     main()
